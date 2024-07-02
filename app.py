@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.title("July PAN India meet (TADKA)")
+st.title("July PAN India meet")
 # Vimeo embed URL with autoplay and muted parameters removed
 vimeo_url =st.secrets["video"]
 

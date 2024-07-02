@@ -8,7 +8,21 @@ vimeo_url = "https://player.vimeo.com/video/973685044?title=0&byline=0&portrait=
 # Embed the Vimeo video using an iframe
 components.iframe(vimeo_url, width=640, height=360)
 google_form_url = "https://forms.gle/3B7hxxtX2qZjZ7zf6"
+meeting_minutes = """
+1. Plan orientation sessions ASAP with your district coordinators. For more details, contact Kunal Singh Chauhan (NSC) and NSC desk members Akhsay and Narendra.
+2. From now onwards, each State coordinator will take the lead on dissemination of content every week as per schedule.POC Subhodeep 
+3. We will be aiming for a collective sankalpa of 8000 average clicks this month.POC Subhodeep 
+4. We are launching a social media newsletter named "Satvified" this month for all stakeholders across India.POC Subhodeep 
+5. Volunteers are needed for YouTube initiatives.POC Rishabh Purohit 
+6. Connect with Kunal Ji for the fan page council.POC Kunal 
+7. Discuss "wisdom of the week" and gather feedback.POC Subhodeep 
+8. Refer to the above recording for more details.POC  Yourself
+"""
 
+# Use st.expander to create an expandable section
+with st.expander("Meeting Minutes"):
+    st.markdown(meeting_minutes)
+    
 with st.expander("Feedback form"):
     # Use st.markdown to display the Google Form within an iframe
     st.markdown(f'<iframe src="{google_form_url}" width="100%" height="600px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>', unsafe_allow_html=True)

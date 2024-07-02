@@ -6,7 +6,14 @@ st.title("July PAN India meet (TADKA)")
 vimeo_url =st.secrets["video"]
 
 # Embed the Vimeo video using an iframe
-components.iframe(vimeo_url, width=500, height=500)
+#components.iframe(vimeo_url, width=500, height=500)
+st.markdown(
+    f"""
+    <iframe src="{vimeo_url}" width="100%" height="600" frameborder="0" allowfullscreen>
+    </iframe>
+    """,
+    unsafe_allow_html=True,
+)
 google_form_url =st.secrets["form"]
 meeting_minutes = st.secrets["meeting_minutes"]
 

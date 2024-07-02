@@ -7,7 +7,11 @@ vimeo_url = "https://player.vimeo.com/video/973685044?title=0&byline=0&portrait=
 
 # Embed the Vimeo video using an iframe
 components.iframe(vimeo_url, width=640, height=360)
+google_form_url = "https://docs.google.com/forms/d/16MxUKtZ7Td6pJuj7zipHtBWilcdz5RMKPloJoav7qok/viewform?embedded=true"
 
+with st.expander("Feedback form"):
+    # Use st.markdown to display the Google Form within an iframe
+    st.markdown(f'<iframe src="{google_form_url}" width="100%" height="600px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>', unsafe_allow_html=True)
 
 with st.expander("Contact us s", expanded=False):
     st.markdown("""

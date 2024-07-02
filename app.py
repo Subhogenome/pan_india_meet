@@ -13,7 +13,7 @@ with st.expander("Feedback form"):
     # Use st.markdown to display the Google Form within an iframe
     st.markdown(f'<iframe src="{google_form_url}" width="100%" height="600px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>', unsafe_allow_html=True)
 
-with st.expander("Contact us s", expanded=False):
+with st.expander("Contact us", expanded=False):
     st.markdown("""
     ### National Social Media Coordinators:
     - **Kunal Singh Chauhan**: 95950 50117

@@ -9,12 +9,12 @@ vimeo_url = "https://player.vimeo.com/video/973685044?title=0&byline=0&portrait=
 components.iframe(vimeo_url, width=640, height=360)
 
 
-with st.expander("National Social Media Coordinators", expanded=False):
+with st.expander("Contact us s", expanded=False):
     st.markdown("""
     ### National Social Media Coordinators:
     - **Kunal Singh Chauhan**: 95950 50117
     - **Subhodeep**: 87894 37422
-    - **Rishabh Purohit**: +91 99742 46013
+    - **Rishabh Purohit**: 99742 46013
     - **N. Manikandan**: 98943 20282
 
     ### Team NSC Office:
